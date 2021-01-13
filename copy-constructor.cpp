@@ -17,7 +17,7 @@ class Line {
         // destructor
         ~Line(void);
 
-        static int getLength(void);
+        int getLength(void);
 };
 
 //using Line::Line;
@@ -57,7 +57,6 @@ int main() {
     Line line(10);
     display(line);
     cout << "After display, right before return" << endl;
-    return 0;
 }
 
 
